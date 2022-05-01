@@ -2,7 +2,7 @@ name: Deploy To Heroku
 
 on:
  push:
-   branches: [ master ]
+   branches: [ main ]
 
 jobs:
   deploy-to-heroku:
